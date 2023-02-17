@@ -24,10 +24,10 @@ else
 
 /*
 Console.Write("Input a number of the day of the week: ");
-int Weekday = Convert.ToInt32(Console.ReadLine());
+int dayNumber = Convert.ToInt32(Console.ReadLine());
 
-if(Weekday <= 7 && Weekday != 0)
-    if(Weekday <= 5)
+if(dayNumber <= 7 && dayNumber != 0)
+    if(dayNumber <= 5)
     Console.WriteLine("No, it's a workday :(");
     else
     Console.WriteLine("Yes, it's the weekend!");
